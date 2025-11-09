@@ -5,7 +5,6 @@ const navLinks = [
   { path: '/projects', name: 'Projects' },
   { path: '/research', name: 'Research' },
   { path: '/awards', name: 'Achievements' },
-  { path: '/extracurriculars', name: 'Extracurriculars' },
 ];
 
 const Layout: React.FC = () => {
