@@ -106,7 +106,6 @@ const HomePage: React.FC = () => {
         
         <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-800 border-b pb-2">Research Projects</h2>
-            {/* FIX: Added pt-4 to give the timeline line space to render above the first dot */}
             <div className="relative mt-12 w-full max-w-4xl mx-auto pt-4">
                 {/* Timeline Line */}
                 <div 
@@ -127,6 +126,7 @@ const HomePage: React.FC = () => {
                                     <div className={`inline-flex items-center gap-4 ${isLeft ? 'md:flex-row-reverse' : ''}`}>
                                         <div className="relative px-4 py-2 bg-gray-100 rounded-lg shadow-sm">
                                             <h3 className="font-bold text-gray-900 text-base">{item.title}</h3>
+                                            {/* FIX: Re-added the closing backtick ` for the template literal */}
                                             <div className={`
                                                 absolute top-1/2 -translate-y-1/2 w-0 h-0 
                                                 border-t-8 border-t-transparent border-b-8 border-b-transparent
@@ -156,4 +156,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;```
+export default HomePage;
