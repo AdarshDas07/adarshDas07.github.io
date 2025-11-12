@@ -10,18 +10,20 @@ const academicLinks = [
 
 const researchProjectsTimeline = [
   {
-    date: 'Summer 2023',
-    title: 'Carbon Nanomaterials',
+    date: 'August 2025',
+    title: 'Final Year Thesis',
     details: [
-      'Research Intern (Mentor: Prof. Anirban)',
-      'Investigated h-BN nanosheets and W nanoparticles as lubricant additives using Molecular Dynamics.'
+      'Research Intern (Mentor: Prof. Kaushik Das)',
+      'IIESTS'
+      'Simulation study on the effect of carbon nanoparticle additives on base fluid properties.'
     ],
   },
   {
-    date: 'Summer 2022',
-    title: 'F1 Chassis Aerodynamics',
+    date: 'Summer 2025',
+    title: 'Summer Research Internship',
     details: [
         'Course Project (Mentors: Tech Analogy)',
+        'Jadavpur University'
         'Designed an F1 car chassis in SolidWorks and performed aerodynamic analysis using Ansys and MATLAB.'
     ],
   },
@@ -30,6 +32,7 @@ const researchProjectsTimeline = [
     title: 'Adhesive EEG Device',
     details: [
         'Bachelor Capstone Project',
+        'IIESTS'
         'Constructed a compact wearable EEG chip (based on TGAM) for monitoring sleep spindle.'
     ],
   },
@@ -38,6 +41,7 @@ const researchProjectsTimeline = [
     title: 'Material Characterization',
     details: [
         'Course Project',
+        'IIESTS'
         'Analyzed mechanical properties of various alloys using tensile testing and microscopy.'
     ],
   },
@@ -156,6 +160,7 @@ const HomePage: React.FC = () => {
                                 
                                 {/* Content */}
                                 <div className={`w-full pl-12 text-left md:w-1/2 md:pl-0 ${isLeft ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left md:ml-auto'}`}>
+                                  <div className={`w-full pl-12 text-left text-blue-600 md:w-1/2 md:pl-0 ${isLeft ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left md:ml-auto'}`}>
                                     <div className={`inline-flex items-center gap-4 ${isLeft ? 'md:flex-row-reverse' : ''}`}>
                                         {/* FIX: Wrapped only the title box in the 'a' tag */}
                                         <a href="/projects" className="relative px-4 py-2 bg-gray-100 rounded-lg shadow-sm hover:opacity-80 transition-opacity">
@@ -178,6 +183,7 @@ const HomePage: React.FC = () => {
                                       ))}
                                     </div>
                                 </div>
+                              </div>
                             </div>
                         );
                     })}
