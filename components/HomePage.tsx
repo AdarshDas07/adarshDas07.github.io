@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
               I am a senior-year year undergraduate student at 
                <a
                   href="https://www.iiests.ac.in"
-                  className="font-bold text-blue-600"
+                  className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -96,7 +96,7 @@ const HomePage: React.FC = () => {
               , majoring in Metallurgy and Materials Engineering. Currently, I am working on my final year thesis under the supervision of Prof. 
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-kaushik"
-                  className="font-bold text-blue-600"
+                  className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ const HomePage: React.FC = () => {
               , on thermal and tribological properties of a material. I recently did a summer internship at 
               <a
                   href="https://jadavpuruniversity.in/"
-                  className="font-bold text-blue-600"
+                  className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -114,7 +114,7 @@ const HomePage: React.FC = () => {
               under Prof. 
               <a
                   href="https://jadavpuruniversity.in/faculty-profile/md-basiruddin-sk/"
-                  className="font-bold text-blue-600"
+                  className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -123,7 +123,7 @@ const HomePage: React.FC = () => {
               where I had studied wear perfromance and tensile behaviour of alloys. Previously, I had worked under Prof. 
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-tapendu"
-                  className="font-bold text-blue-600"
+                  className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
