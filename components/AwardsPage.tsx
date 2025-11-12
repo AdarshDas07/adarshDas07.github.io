@@ -52,7 +52,7 @@ const morePictures = [
   {
     title: 'Presentation, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
     description: 'Presenting the topic "Advancing Carbon Nanomaterials for Reduction of Automotive Engine Friction by using h-BN nanosheets and spherical W nanoparticles additives: A Hypothesis using Molecular Dynamics Simulation."',
-    imageUrl: '/images/event_pic7.jpg',
+    imageUrl: '/images/event_pic7.jpeg',
   },
   {
     title: 'Poster Competition, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
@@ -62,7 +62,7 @@ const morePictures = [
   {
     title: 'Poster Competition, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
     description: 'Presented a Poster on "Current Trends of Giga-Casting Technology in Car Manufacturing."',
-    imageUrl: '/images/event_pic.jpg',
+    imageUrl: '/images/event_pic.jpeg',
   },
   {
     title: 'Presentation, Technical Fest - Metallum 5.0, IIEST Shibpur, 2024',
