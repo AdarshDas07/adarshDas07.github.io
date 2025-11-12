@@ -84,55 +84,55 @@ const HomePage: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-800 border-b pb-2">About Me</h2>
           <div className="mt-4 text-lg text-gray-700 space-y-4 leading-relaxed text-justify">
             <p>
-              I am a senior-year year undergraduate student at 
+              {" "}I am a senior-year year undergraduate student at{" "}
                <a
                   href="https://www.iiests.ac.in"
                   className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
-               Indian Institute of Engineering Science and Technology Shibpur (IIESTS)
+              Indian Institute of Engineering Science and Technology Shibpur (IIESTS)
               </a>
-              , majoring in Metallurgy and Materials Engineering. Currently, I am working on my final year thesis under the supervision of Prof. 
+              , majoring in Metallurgy and Materials Engineering. Currently, I am working on my final year thesis under the supervision of Prof.{" "}
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-kaushik"
                   className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
-               Kaushik Das
+              Kaushik Das
               </a>
-              , on thermal and tribological properties of a material. I recently did a summer internship at 
+              , on thermal and tribological properties of a material. I recently did a summer internship at{" "}
               <a
                   href="https://jadavpuruniversity.in/"
                   className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
-               Jadavpur University 
+              Jadavpur University 
               </a>
-               under Prof. 
+              {" "}under Prof.{" "}
               <a
                   href="https://jadavpuruniversity.in/faculty-profile/md-basiruddin-sk/"
                   className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
-               Md. Basiruddin Sk. 
+              Md. Basiruddin Sk. 
               </a>
-               where I had studied wear perfromance and tensile behaviour of alloys. Previously, I had worked under Prof. 
+              {" "}where I had studied wear perfromance and tensile behaviour of alloys. Previously, I had worked under Prof.{" "}
               <a
                   href="https://www.iiests.ac.in/IIEST/Faculty/metal-tapendu"
                   className="font-bold text-red-600"
                   target="_blank"
                   rel="noopener noreferrer"
               >
-               Tapendu Mandal 
+              Tapendu Mandal 
               </a>
-               where I had gained expertise on fabrication using powder metallurgy.
+              {" "}where I had gained expertise on fabrication using powder metallurgy.
             </p>
             <p>
-              My academic journey has equipped me with a solid foundation in Materials Engineering principles and hands-on experience with various software tools. 
+              {" "}My academic journey has equipped me with a solid foundation in Materials Engineering principles and hands-on experience with various software tools. 
             </p>
           </div>
         </section>
