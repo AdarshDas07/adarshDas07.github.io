@@ -180,7 +180,7 @@ const HomePage: React.FC = () => {
                                                 ${isLeft ? 'md:left-auto md:right-[-8px] md:border-r-0 md:border-l-8 md:border-l-gray-100' : ''}
                                             `}></div>
                                         </a>
-                                        <span className="text-sm italic text-[#FF6F61]">{item.date}</span>
+                                        <span className="text-sm italic text-blue-600">{item.date}</span>
                                     </div>
                                     
                                     <div className="mt-3 space-y-1">
