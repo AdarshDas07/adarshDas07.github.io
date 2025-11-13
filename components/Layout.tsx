@@ -3,7 +3,6 @@ import { Outlet, useLocation } from 'react-router-dom';
 
 const navLinks = [
   { path: '/projects', name: 'Projects' },
-  { path: '/research', name: 'Research' },
   { path: '/awards', name: 'Achievements' },
 ];
 
