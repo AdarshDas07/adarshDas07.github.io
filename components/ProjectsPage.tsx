@@ -91,7 +91,7 @@ const ResearchCard: React.FC<{ title: string; description: string; tags: string[
 );
 
 const ProjectItem: React.FC<{ title: string; imageUrl: string; descriptionPoints: string[]; link: { text: string; href: string } }> = ({ title, imageUrl, descriptionPoints, link }) => (
-    <div className="<div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row items-start gap-8">
+    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row items-start gap-8">
         <div className="md:w-1/3 lg:w-1/4 flex-shrink-0">
             <img src={imageUrl} alt={title} className="w-full h-auto object-cover rounded-md border border-gray-200" />
         </div>
@@ -118,14 +118,9 @@ const ProjectsPage: React.FC = () => {
 
       {/* Research section on TOP */}
       <section className="mb-12">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">
-          Research Interests
-        </h1>
-        <p className="text-lg text-gray-700 mb-8 leading-relaxed text-justify">
-          I am deeply interested in the intersection of materials science and computational simulation
-          to address modern engineering challenges. My primary research interests are focused on the
-          following areas:
-        </p>
+        <h2 className="text-4xl font-bold text-gray-800 mb-8 border-b pb-4">
+          Research Projects
+        </h2>
         <div className="grid md:grid-cols-1 gap-8">
           {researchInterests.map((interest) => (
             <ResearchCard key={interest.title} {...interest} />
