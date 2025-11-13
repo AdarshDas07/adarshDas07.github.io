@@ -2,7 +2,7 @@
 
 This repository contains the source code for the personal academic portfolio of Adarsh Das.
 
-**[Live Site](https://adarshdas07.github.io/)**
+**[Adarsh Das' Portfolio](https://adarshdas07.github.io/)**
 
 ## 🛠️ Technologies Used
 
