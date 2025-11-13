@@ -91,7 +91,7 @@ const ResearchCard: React.FC<{ title: string; description: string; tags: string[
 );
 
 const ProjectItem: React.FC<{ title: string; imageUrl: string; descriptionPoints: string[]; link: { text: string; href: string } }> = ({ title, imageUrl, descriptionPoints, link }) => (
-    <div className="flex flex-col md:flex-row items-start gap-8">
+    <div className="<div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row items-start gap-8">
         <div className="md:w-1/3 lg:w-1/4 flex-shrink-0">
             <img src={imageUrl} alt={title} className="w-full h-auto object-cover rounded-md border border-gray-200" />
         </div>
